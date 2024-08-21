@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tabel Data Diri</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: rgba(248, 246, 246, 0.534);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        table {
+            border-collapse: collapse;
+            margin: 20px auto;
+            width: 80%;
+        }
+        th, td {
+            border: 3px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: rgb(148, 146, 146);
+        }
+        .button-detail {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button-detail:hover {
+            background-color: #0056b3;
+        }
+        .details {
+            display: none;
+            text-align: center;
+        }
+    </style>
+    <script>
+        function toggleDetails(id) {
+            var details = document.getElementById(id);
+            if (details.style.display === "none") {
+                details.style.display = "block";
+            } else {
+                details.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>DATA DIRI KELOMPOK BUMEO</h1>
+
+    <table>
+        <tr>
+            <th colspan="5">DATA DIRI BUNGA</th>
+        </tr>
+        <tr>
+            <td rowspan="8">
+                <img src="foto bunga.jpg" width="290" height="290" alt="Foto Bunga">
+            </td>
+        </tr>
+        <tr>
+            <th>Nama</th>
+            <td>Ni Nyoman Ayu Bunga Lestari</td>
+        </tr>
+        <tr>
+            <th>Kelas</th>
+            <td>XI RPL 3</td>
+        </tr>
+        <tr>
+            <th>NIS</th>
+            <td>31558</td>
+        </tr>
+        <tr>
+            <th>Tempat, Tanggal Lahir</th>
+            <td>Angantaka, 15 Desember 2007</td>
+        </tr>
+        <tr>
+            <th>Asal Sekolah</th>
+            <td>SMKN 1 Denpasar</td>
+        </tr>
+        <tr>
+            <th>Jurusan</th>
+            <td>Rekayasa Perangkat Lunak</td>
+        </tr>
+        <tr>
+            <th>Instagram</th>
+            <td><a href="https://www.instagram.com/ayumg._?igsh=NTc1N2c2M2d3NDc4">@ayumg._</a></td>
+        </tr>
+    </table>
+
+    <button class="button-detail" onclick="toggleDetails('details-bunga')">Lihat Detail</button>
+    <div id="details-bunga" class="details">
+        <p>Saya adalah seorang siswa dari SMK Negeri 1 Denpasar yang menempuh pendidikan di jurusan RPL atau Rekayasa Perangkat Lunak.</p>
+        <p><strong> Nama:</strong> Ni Nyoman Ayu Bunga Letari</p>
+        <p><strong>Kelas:</strong> XI RPL 3</p>
+        <p><strong>Nis:</strong> 31558
+        <p><strong>Tempat, tanggal lahir:</strong>Angantaka, 15 Desember 2007</p>
+        <p><strong>Asal sekolah:</strong> SMKN 1 Denpasar</p>
+        <p><strong>Jurusan:</strong> Rekayasa perangkat lunak</p>
+        <p><strong><a href="https://www.instagram.com/ayumg._?igsh=NTc1N2c2M2d3NDc4" class="button">ayumg._</a></strong></p>
+    </div>
+
+    <table>
+        <tr>
+            <th colspan="5">DATA DIRI ONNY</th>
+        </tr>
+        <tr>
+            <td rowspan="8">
+                <img src="foto onny.jpg" width="300" alt="Foto Onny">
+            </td>
+        </tr>
+        <tr>
+            <th>Nama</th>
+            <td>Ni Komang Onny Fridayanti</td>
+        </tr>
+        <tr>
+            <th>Kelas</th>
+            <td>XI RPL 3</td>
+        </tr>
+        <tr>
+            <th>NIS</th>
+            <td>31556</td>
+        </tr>
+        <tr>
+            <th>Tempat, Tanggal Lahir</th>
+            <td>Denpasar, 30 Mei 2008</td>
+        </tr>
+        <tr>
+            <th>Asal Sekolah</th>
+            <td>SMKN 1 Denpasar</td>
+        </tr>
+        <tr>
+            <th>Jurusan</th>
+            <td>Rekayasa Perangkat Lunak</td>
+        </tr>
+        <tr>
+            <th>Instagram</th>
+            <td><a href="https://www.instagram.com/onnyfridayanti?igsh=eWVucHJjZTBldG41">@onnyfridayanti</a></td>
+        </tr>
+    </table>
+
+    <button class="button-detail" onclick="toggleDetails('details-onny')">Lihat Detail</button>
+    <div id="details-onny" class="details">
+        <p><strong><a href="https://www.instagram.com/onnyfridayanti?igsh=eWVucHJjZTBldG41" class="button">onnyfridayanti</a></strong></p>
+        <p>Saya adalah seorang siswa dari SMK Negeri 1 Denpasar yang menempuh pendidikan di jurusan RPL atau Rekayasa Perangkat Lunak.</p>
+    </div>
+
+    <table>
+        <tr>
+            <th colspan="5">DATA DIRI MERTA</th>
+        </tr>
+        <tr>
+            <td rowspan="8">
+                <img src="foto merta.jpg" width="300" alt="Foto Merta">
+            </td>
+        </tr>
+        <tr>
+            <th>Nama</th>
+            <td>I Putu Mertayasa</td>
+        </tr>
+        <tr>
+            <th>Kelas</th>
+            <td>XI RPL 3</td>
+        </tr>
+        <tr>
+            <th>NIS</th>
+            <td>31544</td>
+        </tr>
+        <tr>
+            <th>Tempat, Tanggal Lahir</th>
+            <td>Denpasar, 09 Maret 2008</td>
+        </tr>
+        <tr>
+            <th>Asal Sekolah</th>
+            <td>SMKN 1 Denpasar</td>
+        </tr>
+        <tr>
+            <th>Jurusan</th>
+            <td>Rekayasa Perangkat Lunak</td>
+        </tr>
+        <tr>
+            <th>Instagram</th>
+            <td><a href="https://www.instagram.com/merta.yasa10?igsh=YzNrYmtwMmxhbXNv">@merta.yasa10</a></td>
+        </tr>
+    </table>
+
+    <button class="button-detail" onclick="toggleDetails('details-merta')">Lihat Detail</button>
+    <div id="details-merta" class="details">
+        <p><strong><a href="https://www.instagram.com/merta.yasa10?igsh=YzNrYmtwMmxhbXNv" class="button">merta.yasa10</a></strong></p>
+        <p>Saya adalah seorang siswa dari SMK Negeri 1 Denpasar yang menempuh pendidikan di jurusan RPL atau Rekayasa Perangkat Lunak.</p>
+    </div>
+</body>
+</html>
